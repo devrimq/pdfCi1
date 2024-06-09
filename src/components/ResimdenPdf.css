@@ -1,0 +1,85 @@
+.container {
+  text-align: center;
+}
+
+.resim-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column; /* İçerideki öğeleri dikey olarak hizalar */
+  justify-content: center; /* Öğeleri dikey eksende ortalar */
+  align-items: center; /* Öğeleri yatay eksende ortalar */
+}
+
+.CanvasTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.custom-file-input-container {
+  margin-bottom: 10px;
+}
+
+.custom-file-input-container label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.custom-file-input-container input {
+  display: none;
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.file-name-input-container input {
+  color: #666; /* Soluk bir renk */
+  font-family: 'Arial', sans-serif; /* Farklı bir font */
+  font-size: 14px; /* Yazı boyutu */
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.convert-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  background-color: #218838;
+}
